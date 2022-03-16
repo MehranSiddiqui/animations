@@ -1,0 +1,36 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 20rem;
+}
+
+.listItem {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: 1px solid #521751;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  cursor: pointer;
+}
+.listItem:hover,
+.listItem:active {
+  background-color: #ccc;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
